@@ -1,0 +1,70 @@
+﻿Build started 12/9/2015 1:34:37 PM.
+     1>Project "C:\Users\oak\Desktop\plus\plus.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\oak\desktop\plus\main.c(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\oak\desktop\plus\main.c(102): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\oak\desktop\plus\main.c(107): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\oak\desktop\plus\main.c(137): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(144): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(149): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(215): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(218): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(219): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(241): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(244): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(245): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\oak\desktop\plus\main.c(348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\oak\desktop\plus\main.c(575): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(586): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(592): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(551): warning C4101: 'sum1' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(670): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(681): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(688): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(689): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(646): warning C4101: 'sum1' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(752): warning C4244: 'function' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(752): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(753): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(755): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(783): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(793): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(806): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(807): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(815): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(816): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(744): warning C4101: 'sum1' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(741): warning C4101: 'min4' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(743): warning C4101: 'i3' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(741): warning C4101: 'max4' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(879): warning C4244: 'function' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(879): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(880): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(882): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(910): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(920): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(933): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(934): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\oak\desktop\plus\main.c(942): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(943): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\oak\desktop\plus\main.c(871): warning C4101: 'sum1' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(868): warning C4101: 'min4' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(870): warning C4101: 'i3' : unreferenced local variable
+     1>c:\users\oak\desktop\plus\main.c(868): warning C4101: 'max4' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\plus.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\plus.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\plus.lib" /MACHINE:X86 /SAFESEH .\Debug\interface.res
+         .\Debug\main.obj
+         plus.vcxproj -> C:\Users\oak\Desktop\plus\.\Debug\plus.exe
+     1>Done Building Project "C:\Users\oak\Desktop\plus\plus.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67
